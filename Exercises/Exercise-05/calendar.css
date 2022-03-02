@@ -1,0 +1,94 @@
+.week-1{
+	display: flex-wrap;
+	width: 100%;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.week-2{
+	display: flex-wrap;
+	width: 100%;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.week-3{
+	display: flex-wrap;
+	width: 100%;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.week-4{
+	display: flex-wrap;
+	width: 100%;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.week-5{
+	display: flex-wrap;
+	width: 100%;
+	justify-content: space-around;
+	align-content: center;
+}
+
+
+.purple-box{
+	width: 80px;
+	height: 100px;
+	background-color: darkorange;
+	padding: 10px;
+	border: darkred dotted 2px;
+	margin: 10px;
+	color: whitesmoke;
+	display: inline-block;
+	border-radius: 100% 100% 0 0;
+	font-family: sans-serif;
+	font-size: 42pt;
+	align-items: center;
+
+}
+
+.round-box{
+	width: 80px;
+	height: 80px;
+	background-color: darkgreen;
+	padding: 10px;
+	border: darkred dotted 2px;
+	margin: 10px;
+	color: whitesmoke;
+	display: inline-block;
+	border-radius: 100% 100%;
+	font-family: sans-serif;
+	font-size: 42pt;
+	align-items: center;
+
+}
+
+img{
+	width: 80px;
+	height: 100px;
+	padding: 10px;
+	border: green dotted 3px;
+	margin: 10px;
+	display: inline-block;
+	border-radius: 100% 100% 0 0;
+	align-items: center;
+
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 92pt;
+	color: darkgreen;
+	width: 100%;
+	margin: 10px;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+
