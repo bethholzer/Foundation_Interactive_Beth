@@ -1,0 +1,59 @@
+
+
+.pink{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: lightpink;
+	border-radius: 100%;
+	opacity: 1
+	transition: background-color 2s ease;
+				width: 5s ease;
+				height: 5s ease;
+				transition: 5s ease;
+
+}
+
+
+.pink:hover{
+		transform: scale(.01, .01);
+		opacity: 0.5;
+}
+
+
+
+.white{
+	width: 100px;
+	height: 100px;
+	background-color: whitesmoke;
+	border-radius: 100%;
+	animation:  circle2 5s cubic-bezier(1, 0.06, 0.08, 0.99) infinite alternate;
+
+}
+
+@keyframes circle2{
+		0% {transform: translateX(100px) translateY(100px);}
+		100% {transform: translateX(600px) translateY(600px);}
+		0% {background-color: whitesmoke;}
+		100% {background-color: lightpink;}
+
+}
+
+.coral{
+	width: 150px;
+	height: 150px;
+	background-color: coral;
+	border-radius: 100%;
+	animation:  circle3 5s cubic-bezier(1, 0.06, 0.08, 0.99) infinite alternate;
+
+}
+
+@keyframes circle3{
+		0% {transform: translateX(100px) translateY(800px);}
+		100% {transform: translateX(300px) translateY(100px);}
+		0% {background-color: coral;}
+		100% {background-color: whitesmoke;}
+
+}
+
+
