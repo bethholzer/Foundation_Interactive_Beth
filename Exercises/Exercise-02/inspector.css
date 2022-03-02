@@ -1,0 +1,9 @@
+img {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+
+}
