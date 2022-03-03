@@ -1,0 +1,25 @@
+background-color: lightblue;
+
+.container{
+	width: 600px;
+	height: 600px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.blue-line{
+	stroke: blue;
+	stroke-width:  10px;
+	stroke-linecap: round;
+	fill: none;
+
+}
+
+.spine{
+	stroke: blue;
+	stroke-width:  10px;
+	stroke-linecap: round;
+	fill: none;
+}

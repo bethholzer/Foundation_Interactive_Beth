@@ -1,61 +1,63 @@
 .week-1{
-	display: flex-wrap;
+	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	align-content: center;
+	align-items: center;
 }
 
 .week-2{
-	display: flex-wrap;
+	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	align-content: center;
+	align-items: center;
 }
 
 .week-3{
-	display: flex-wrap;
+	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	align-content: center;
+	align-items: center;
 }
 
 .week-4{
-	display: flex-wrap;
+	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	align-content: center;
+	align-items: center;
 }
 
 .week-5{
-	display: flex-wrap;
+	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	align-content: center;
+	align-items: center;
 }
 
 
 .purple-box{
+	text-align: center;
 	width: 80px;
-	height: 100px;
-	background-color: darkorange;
-	padding: 10px;
-	border: darkred dotted 2px;
+	height: 50px;
+	background-color: coral;
+	padding: 30px 10px;
+	border: darkred dotted 3px;
 	margin: 10px;
 	color: whitesmoke;
 	display: inline-block;
 	border-radius: 100% 100% 0 0;
 	font-family: sans-serif;
 	font-size: 42pt;
-	align-items: center;
+	vertical-align: bottom;
 
 }
 
 .round-box{
-	width: 80px;
-	height: 80px;
+	text-align: center;
+	width: 75px;
+	height: 75px;
 	background-color: darkgreen;
-	padding: 10px;
-	border: darkred dotted 2px;
+	padding: 20px 15px 10px 15px;
+	border: whitesmoke dotted 3px;
 	margin: 10px;
 	color: whitesmoke;
 	display: inline-block;
@@ -74,16 +76,26 @@ img{
 	margin: 10px;
 	display: inline-block;
 	border-radius: 100% 100% 0 0;
-	align-items: center;
+	vertical-align: bottom;
 
 }
 
-p {
+.right{
 	font-family: sans-serif;
-	font-size: 92pt;
+	font-size: 64pt;
+	color: darkgreen;
+	width: 90%;
+	margin: 40px;
+	text-align: right;
+}
+
+.left{
+	font-family: sans-serif;
+	font-size: 64pt;
 	color: darkgreen;
 	width: 100%;
-	margin: 10px;
+	margin: 50px;
+	text-align: left;
 }
 
 .center {
