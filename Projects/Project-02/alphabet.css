@@ -1,0 +1,39 @@
+.letters{
+	fill: white;
+}
+
+.wave-fill{
+	width: 100%;
+	height: 150px;
+	background-color: #7fcdff;
+}
+
+.span{
+	diplay: block;
+	width: 100%;
+}
+.wave{
+	background: "water2.png";
+	height: 22px;
+	background-size: contain;
+	animation: wave 10s linear infinite;
+}
+
+.deep-water{
+	background: #7fcdff;
+	height: 200px;
+}
+
+@keyframes wave{
+	from {background-position: 0px, 0px;}
+	to {background-position: 1000px, 0px;}
+}
+
+.water{
+	animation: water 10s ease infinite;
+}
+
+@keyframes water{
+	from{transform: translateY(100%);}
+	to{transform: translateX(-100%);}
+}

@@ -28,12 +28,13 @@
 	background-color: whitesmoke;
 	border-radius: 100%;
 	animation:  circle2 5s cubic-bezier(1, 0.06, 0.08, 0.99) infinite alternate;
+	offset-path: path('M0,0 C0,200 400,200 400,0 S');
 
 }
 
 @keyframes circle2{
-		0% {transform: translateX(100px) translateY(100px);}
-		100% {transform: translateX(600px) translateY(600px);}
+		0% {   offset-distance:0%;}
+		100% { offset-distance:100%;}
 		0% {background-color: whitesmoke;}
 		100% {background-color: lightpink;}
 
