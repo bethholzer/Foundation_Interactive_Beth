@@ -111,13 +111,14 @@
 }
 
 #emoji{
-	padding: 30px;
-/*	display: flex;
+	padding-top: 50px;
+	padding-bottom: 30px;
+*//*	display: flex;
 	flex-wrap: wrap;*/
 	width: 100%;
 	text-align: center;
 	align-items: center;
-	background-color: #27afd7;
+	background-color: #fa7d40;
 	height: 60px;
 	font-size: 14pt;
 }
@@ -133,7 +134,7 @@
 }
 
 #alphabet{
-	background-color: #27afd7;
+	background-color: #fa7d40;
 	display: flex;
 	flex-flow: row wrap;
   justify-content: space-around;
