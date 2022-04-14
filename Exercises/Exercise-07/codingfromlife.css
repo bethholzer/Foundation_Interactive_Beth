@@ -1,0 +1,120 @@
+
+.canvas{
+	width: 1000px;
+	height: 700px;
+	background-color: #ffffff;
+	border: solid black 1px;
+	border-radius: 50%;
+	position: fixed;
+	top: 50px;
+	left: 100px;
+}
+
+.candle {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#e66465, #9198e5);
+	border-radius: 100%;
+	position: fixed;
+	top: 250px;
+	left: 380px;
+}
+
+.candleOne {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#e66465, #9198e5);
+	border-radius: 100%;
+	position: fixed;
+	top: 260px;
+	left: 450px;
+}
+
+.candleTwo {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#e66465, #9198e5);
+	border-radius: 100%;
+	position: fixed;
+	top: 240px;
+	left: 520px;
+}
+
+.candleThree {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#e66465, #9198e5);	
+	border-radius: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 320px;
+	left: 440px;
+}
+
+.candleFour {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#e66465, #9198e5);	
+	border-radius: 100%;
+	position: fixed;
+	top: 300px;
+	left: 500px;
+}
+
+.candleFive {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#e66465, #9198e5);	
+	border-radius: 100%;
+	position: fixed;
+	top: 280px;
+	left: 530px;
+}
+
+.candleSix {
+	width: 100px;
+	height: 100px;
+	background-image: radial-gradient(#e66465, #9198e5);	
+	border-radius: 100%;
+	position: fixed;
+	top: 300px;
+	left: 400px;
+}
+
+.matchBox{
+	position: relative;
+	z-index: 100;
+	transform: translate(500px, 420px);
+
+}
+
+.baseTop{
+	width: 220px;
+	height: 50px;
+	background-color: gray;
+	opacity: 0.33;
+	border-radius: 50%;
+	position: relative;
+	z-index: 99;
+	transform: translate(400px, -720px);
+
+}
+
+.baseToptwo{
+	width: 220px;
+	height: 50px;
+	background-color: gray;
+	opacity: 0.33;
+	border-radius: 50%;
+	position: relative;
+	z-index: 99;
+	transform: translate(400px, -745px);
+
+}
+
+.pig{
+	position: relative;
+	z-index: 100;
+	transform: translate(-500px, 300px);
+	scale: .5;
+}
