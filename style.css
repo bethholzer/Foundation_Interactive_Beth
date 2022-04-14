@@ -19,12 +19,12 @@ body {
 
     a {
       font-weight: bold;
-      color: #0000ff;
+      color: #ffffff;
       text-decoration: none;
     }
 
     a:hover {
-      background-color: #0000ff;
+      background-color: #ffffff;
     }
 
     ul {
