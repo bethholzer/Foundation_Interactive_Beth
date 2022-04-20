@@ -1,4 +1,11 @@
 .blotter-gallery{
-	background-color: #0000ff;
+	background-color: gray;
 	padding: 50px;
+	width: 25%;
+}
+
+.earth-gallery{
+	background-color: lightcyan;
+	padding: 50px;
+	width: 25%;
 }
