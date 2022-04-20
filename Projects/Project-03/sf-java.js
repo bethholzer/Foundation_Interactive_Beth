@@ -31,7 +31,7 @@ console.log(emptyImages);
 
 let earthGallery = document.querySelector('div.earth-gallery');
 
-const emptyImages = document.querySelectorAll('img'); // doesn't necessarily have to be empty
+const emptyImages = document.querySelectorAll('img'); 
 
 const images = ['assets/SF/whole-earth/WE-1.jpg', 
                 'assets/SF/whole-earth/WE-2.jpg', 
@@ -47,7 +47,7 @@ function populateImages(){
         i++;
     }
 
-    if (i > 3){ i =0;}  // this number can change depending on how many images you have available
+    if (i > 3){ i =0;} 
 }
 
 earthGallery.addEventListener('click',populateImages);
