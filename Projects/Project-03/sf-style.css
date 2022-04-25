@@ -1,11 +1,19 @@
+
+
 .blotter-gallery{
-	background-color: gray;
 	padding: 50px;
 	width: 25%;
+	display: inline-block;
 }
 
 .earth-gallery{
-	background-color: lightcyan;
 	padding: 50px;
 	width: 25%;
+	display: inline-block;
+
+}
+
+img{
+		width: 100%;
+
 }
