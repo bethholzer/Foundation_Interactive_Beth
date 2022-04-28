@@ -1,0 +1,152 @@
+
+
+.people-gallery{
+	padding: 100px;
+	width: 30%;
+	display: inline-block;
+}
+
+.cbgb-gallery{
+	padding: 20px;
+	width: 30%;
+	display: inline-block;
+
+}
+
+.record-gallery{
+	padding: 50px;
+	width: 30%;
+	display: inline-block;
+}
+
+.arch-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.top-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+/*.chain-black{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	transform: translate(10vw, 20vh);
+}
+
+.wire-red{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	transform: translate(70vw, 0vh);
+}
+
+.wire-black{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	transform: translate(50vw, 50vh);
+}*/
+
+.record-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 90vw;
+	top: 80vh;
+}
+
+.record-spin2{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 10vw;
+	top: 10vh;
+}
+
+.record-spin3{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 80vw;
+	top: 20vh;
+}
+
+.record-spin4{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 30vw;
+	top: 50vh;
+}
+
+.headline{
+    font-family: 'VTC-Martin-Regular';
+    src: url('VTC-Martin-Regular.ttf') format('ttf'),
+  	padding: 10px, 10px;
+  	font-size: 90px;
+  	text-align: center;
+  	color: #FEFBEA;
+
+
+}
+
+@font-face {
+    font-family: 'VTC-Martin-Regular';
+    src: url('VTC-Martin-Regular.ttf') format('ttf'),
+/*    font-weight: normal;
+    font-style: normal;*/
+
+}
+
+.nav-back{
+/*	text-decoration: none;
+*/	position: fixed;
+	left: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: #FFC0CB;
+}
+
+.nav-next{
+	position: fixed;
+	right: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: #FFC0CB
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+	color: #FFC0CB;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #FEFBEA;
+
+}
+
+img{
+		width: 100%;
+
+}

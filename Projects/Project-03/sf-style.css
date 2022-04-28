@@ -2,14 +2,119 @@
 
 .blotter-gallery{
 	padding: 50px;
-	width: 25%;
+	width: 40%;
 	display: inline-block;
 }
 
 .earth-gallery{
 	padding: 50px;
-	width: 25%;
+	width: 40%;
 	display: inline-block;
+
+}
+
+.poster-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.cult-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+
+}
+
+.top-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.blue-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 8vw;
+	top: 8vh;
+
+}
+
+.purple-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 80vw;
+	top: 30vh;
+}
+
+.light-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 50vw;
+	top: 50vh;
+}
+
+.headline{
+    font-family: 'Eckmannpsych-Small';
+    src: url('Eckmannpsych-Small.otf') format('otf'),
+  	padding: 10px, 10px;
+  	font-size: 70px;
+  	text-align: center;
+
+}
+
+@font-face {
+    font-family: 'Eckmannpsych-Small';
+    src: url('Eckmannpsych-Small.otf') format('otf'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nav-back{
+/*	text-decoration: none;
+*/	position: fixed;
+	left: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: black;
+}
+
+.nav-next{
+/*	text-decoration: none;
+*/	position: fixed;
+	right: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: lightgreen;
 
 }
 

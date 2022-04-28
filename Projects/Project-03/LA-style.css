@@ -1,0 +1,131 @@
+
+
+.scream-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.flyer-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+
+}
+
+.slash-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.decline-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.top-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.chain-black{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 60vw;
+	top: 40vh;
+}
+
+.wire-red{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 90vw;
+	top: 10vh;
+}
+
+.wire-black{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 10vw;
+	top: 10vh;
+}
+
+.chain-red{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 40vw;
+	top: 80vh;
+}
+
+.headline{
+    font-family: 'VTCCarrie-Regular';
+    src: url('VTCCarrie-Regular.otf') format('otf'),
+  	padding: 10px, 10px;
+  	font-size: 80px;
+  	text-align: center;
+  	color: black;
+
+
+}
+
+@font-face {
+    font-family: 'VTCCarrie-Regular';
+    src: url('VTCCarrie-Regular.otf') format('otf'),
+/*    font-weight: normal;
+    font-style: normal;*/
+
+}
+
+.nav-back{
+/*	text-decoration: none;
+*/	position: fixed;
+	left: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: black;
+}
+
+.nav-next{
+	position: fixed;
+	right: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: red;
+
+}
+
+img{
+		width: 100%;
+
+}

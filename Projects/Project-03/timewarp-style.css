@@ -1,0 +1,60 @@
+.headline{
+    font-family: 'Eckmannpsych-Small';
+    src: url('Eckmannpsych-Small.otf') format('otf'),
+  	padding: 10px, 10px;
+  	font-size: 60px;
+  	text-align: center;
+  	color: #FFC0CB;
+}
+
+.ticket{
+    font-family: 'VTC-Martin-Regular';
+    src: url('VTC-Martin-Regular.ttf') format('ttf'),
+    padding: 10px, 10px;
+    font-size: 120px;
+    text-align: center;
+    color: #FFC0CB;
+}
+
+.take{
+    font-family: 'VTCCarrie-Regular';
+    src: url('VTCCarrie-Regular.otf') format('otf'),
+    padding: 10px, 10px;
+    font-size: 120px;
+    text-align: center;
+    color: #FFC0CB;
+}
+
+.ride{
+    font-family: 'Veltor';
+    src: url('Veltor.otf') format('otf'),
+    padding: 40px;
+    font-size: 120px;
+    text-align: center;
+    color: #FFC0CB;
+}
+
+
+@font-face {
+    font-family: 'VTC-Martin-Regular';
+    src: url('VTC-Martin-Regular.ttf') format('ttf'),
+
+}
+
+@font-face {
+    font-family: 'Eckmannpsych-Small';
+    src: url('Eckmannpsych-Small.otf') format('otf'),
+
+}
+
+@font-face {
+    font-family: 'VTCCarrie-Regular';
+    src: url('VTCCarrie-Regular.otf') format('otf'),
+
+}
+
+@font-face {
+    font-family: 'Veltor';
+    src: url('Veltor.otf') format('otf'),
+
+}

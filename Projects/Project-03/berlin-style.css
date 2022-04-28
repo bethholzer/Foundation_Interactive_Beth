@@ -1,0 +1,131 @@
+
+
+.raver-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.flyer-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+
+}
+
+.frontpage-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.love-gallery{
+	padding: 50px;
+	width: 40%;
+	display: inline-block;
+}
+
+.top-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-row{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.green-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 90vw;
+	top: 10vh;
+}
+
+.orange-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 10vw;
+	top: 20vh;
+}
+
+.pink-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 40vw;
+	top: 80vh;
+}
+
+.yellow-spin{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	left: 60vw;
+	top: 40vh;
+}
+
+.headline{
+    font-family: 'Veltor';
+    src: url('Veltor.otf') format('otf'),
+  	padding: 10px, 10px;
+  	font-size: xxx-large;
+  	text-align: center;
+  	color: white;
+
+
+}
+
+@font-face {
+    font-family: 'Veltor';
+    src: url('Veltor.otf') format('otf'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nav-back{
+/*	text-decoration: none;
+*/	position: fixed;
+	left: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: white;
+}
+
+.nav-next{
+	position: fixed;
+	right: 30px;
+	bottom: 0px;
+	padding: 10px;
+	font-family: monospace;
+	font-size: large;
+	color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: hotpink;
+
+}
+
+img{
+		width: 100%;
+
+}
