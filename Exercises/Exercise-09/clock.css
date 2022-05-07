@@ -1,0 +1,19 @@
+body {
+  background-color: #f7f7ef;
+  color: #4f8af7;
+  font-family: monospace;
+  font-size: 120px;
+}
+
+.header {
+  color: #414141;
+  margin: 0px;
+  padding: 0px;
+}
+
+.align{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
