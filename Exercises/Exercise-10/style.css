@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+   background-color: #FFFDD0;
+   	cursor: help; 
+}
+
+
+
+#shapes-1{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#shapes-2{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#shapes-3{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#shapes-4{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#shapes-5{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#square-green-1 {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #649b2d;
+	display: inline-block;
+}
+
+#circle-yellow {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #f6c050;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+#square-red {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #e95033;
+	display: inline-block;
+}
+
+#circle-blue {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #4f8af7;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+#square-pink {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #ec5db0;
+	display: inline-block;
+}
+
+#circle-black {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #000000;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+#square-blue {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #4f8af7;
+	display: inline-block;
+}
+
+#circle-red {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #e95033;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+#square-green {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #649b2d;
+	display: inline-block;
+}
+
+#circle-pink {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	background: #ec5db0;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	display: inline-block;
+}
