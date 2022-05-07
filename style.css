@@ -1,5 +1,5 @@
 body {
-      font-family:  sans-serif;
+      font-family:  monospace;
       line-height: 1.5em;
       background-color: white;  
     }
@@ -10,7 +10,20 @@ body {
       /* border:1px solid #CCC; */
     }
 
+    .text-green{
+      color: #649b2d;
+    }
+
+    .text-pink{
+      color: #ec5db0;
+    }
+
+    .text-red{
+      color: #e95033;
+    }
+
     h1 {
+      color: black;
       margin-top: 0;
       font-size: 3.5em;
       line-height: 1em;
@@ -19,12 +32,12 @@ body {
 
     a {
       font-weight: bold;
-      color: #ffffff;
+      color: #4f8af7;
       text-decoration: none;
     }
 
     a:hover {
-      background-color: #ffffff;
+      background-color: #f6c050;
     }
 
     ul {
@@ -35,3 +48,4 @@ body {
     ul li {
       color: #CCC;
     }
+
