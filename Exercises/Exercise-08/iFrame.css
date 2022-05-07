@@ -1,0 +1,24 @@
+
+
+h1{
+	text-align: center;
+	color: #f6c050;
+	font-family: monospace;
+	font-size: 60px;
+}
+
+.top-row{
+	padding: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-row{
+	padding: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
